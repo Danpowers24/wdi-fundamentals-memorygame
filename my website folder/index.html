@@ -1,0 +1,220 @@
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans|Montserrat|Vollkorn&display=swap" rel="stylesheet">
+
+
+<head>
+	<title>Home</title>
+<style>
+	
+/* 
+I got hung up on importing .css files into my html files. I imagine it's a tiny detail that I am not getting right. Ideally, I would like to structure every page on my site with linked external css files and but since this is just a one-pager for now, it'll do. 
+
+Things to do:
+max-width -- so when I shrink the browser, I don't want the divs/blocks of text to get too skinny
+js -- Change the profile pic to a smile pic on mouseover, then go back to default on mouseout
+finish background - easy
+add contact info
+get rid of huge space between links and first dev
+
+<img src="https://i.imgur.com/N0a3b0U.png" class=mug>
+
+*/
+
+	h1 {
+		font-size:110;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: -30px;
+		/*background: rgba(0, 0, 0, .4);
+		padding: 30px 30px 30px 30px;*/
+		color: white;
+		font-family: 'VOLLKORN', sans-serif;
+
+}
+	li { /* How do I get the links to stay white? */
+		display: inline;
+		margin: 30px 30px 30px 30px;
+		color: white;
+		font-family: 'Montserrat';
+}
+	.occupation {
+		color: white;
+		text-align: center;
+		font-size: 27px;
+		font-family: 'Montserrat';
+		margin-top: 20px;
+		margin-bottom: 80px;
+	}
+	ul {	
+		background: rgba(0, 0, 0, .3);
+		padding: 10px;
+    	text-align: center;      
+    	margin: 50px 200px -150px 200px;
+    	color: white;
+}
+	a {
+		color: white;
+	}
+	img {
+      	display: block;
+      	border-width: 10px;
+      	border-style: solid;
+      	border-color: rgba(0, 0, 0, .5);
+      	border-radius: 50%;
+      	height: 300px;
+      	margin-left: auto;
+      	margin-right: auto;
+      	margin-top: 50px;
+      	transition: .5s;
+      	-webkit-transition: .5s;
+      	-moz-transition: .5s ease;
+}
+	body {
+		background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("https://www.biodiversityfinance.net/sites/default/files/content/banner/Screen%20Shot%202017-05-29%20at%2011.09.05%20am.png");
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-family: 'Montserrat';
+		/*background: rgba(0, 0, 10, .5);*/
+	}
+	h2 {
+		font-size: 25px;
+		text-align: center;
+		font-weight: 700;
+	}
+
+	p {
+		font-size: 20px
+	}
+	.Interests {
+		background: rgba(0, 0, 0, .3);
+		color: white;
+		text-align: justify;
+		padding: 20px;
+		margin: 200px 200px 50px 200px;
+	}
+	.Background {
+		background: rgba(0, 0, 0, .3);
+		color: white;
+		text-align: justify;
+		padding: 20px;
+		margin: 0px 200px 50px 200px;
+	}
+	.ContactMe {
+		background: rgba(0, 0, 0, .35);
+		color: white;
+		text-align: center;
+		padding: 20px;
+		margin: 0px 200px 50px 200px;
+	}
+	.BackToTop {
+		text-align: center;
+		font-family: 'Montserrat';
+		margin: -10px;
+	}
+
+	@media (max-width: 900px) {
+		.Interests {
+			margin: 200px 80px 50px 80px;
+		}
+		.Background {
+			margin: 50px 80px 50px 80px;
+		}
+		.ContactMe {
+			margin: 50px 80px 50px 80px;
+		}
+		ul {
+			margin: 50px 80px -150px 80px; 
+		}
+	}
+	
+	
+}
+</style>
+
+</head>
+
+
+<body>
+<header>
+
+</header>
+<background>
+	
+</background>
+
+<a name="top"></a>
+
+<img title="Pro pic magic" src="https://i.imgur.com/N0a3b0U.png" 
+onmouseover="this.src='https://i.imgur.com/nPVQdSZ.png'" 
+	width=300px;
+
+onmouseout="this.src='https://i.imgur.com/N0a3b0U.png'" />
+
+<h1>DANIEL POWERS</h1>
+<div class=occupation>
+	Software Engineer
+</div>
+
+
+<ul>
+	<li><a href="index.html#Interests">Interests</a></li>
+	<li><a href="index.html#Background">Background</a></li>
+	<li><a href="index.html#ContactMe">Contact Me</a></li>
+</ul>
+
+<div class=Interests>
+	<h2><a name="Interests">Interests</a></h2>
+	<p>
+		You will often find me  watching car and tech videos, catching the game, or listening to music. I am very interested in the electric car movement. I drive (and adore) my 6-speed Subaru WRX and enjoy shifting through the gears, but electric cars are the future. I believe the sky's the limit for the crazy EV's that car manufacturers will produce in the coming years. <br><br>
+
+		Despite being a massive New England Patriots fan having grown up a town over from Foxboro, I have much more fun rooting for my mom's team - the Green Bay Packers. <br><br>
+
+		Staying up to date on all the latest consumer technology is an obsession of mine. I am always looking out for the latest and greatest cell phones, laptops, and televisions (despite not being able to afford any of them). <br><br>
+
+		When driving people around, I usually play people my pop and hip hop playlists while keeping the alternative and heavy metal stuff to myself. I love playing the drums because it's a rewarding way to express myself. <br><br>
+
+		<div class=BackToTop><a href="index.html#top">Back to Top</a></div>
+
+
+	</p> 
+
+	</div>
+
+<div class=Background>
+	<h2><a name="Background">Background</a></h2>
+	<p>
+		I was born and raised in a town called Mansfield. Mansfield is known for being the home of the Xfinity Center - a large, outdoor concert venue. It was a great place to grow up. 
+			<br><br>
+		I eventually left home to attend Westfield State University. WSU is a wonderful little state school in western Massachusetts where I came out of my shell and found my own as the captain of the Ultimate Frisbee team and the chapter chairman of MASSPIRG, a student activism group on campus.
+			<br><br> 
+		After graduating, I pounded the pavement doing door-to-door marketing for a home remodeling company. It was a tough job, but they flew the company to Cancun every year for the holiday party. The third and final holiday party I attended was the trip that my girlfriend and I got together on. I'm forever grateful for that last trip!
+			<br><br> 
+		I moved to Brighton to be closer to my girlfriend, Caroline. I have really enjoyed my time living there - What a great place to live! I am now embarking on the next journey of my life to become a software engineer. I am attending bootcamp to learn and equip myself with new tools to take on new challenges. There are lots of fun problems in the tech world that I want to learn how to solve! <br><br>
+
+		<div class=BackToTop><a href="index.html#top">Back to Top</a></div>
+		
+
+
+	</p> 
+
+	</div>
+
+	<div class=ContactMe>
+	<h2><a name=ContactMe>Contact Me</a></h2>
+	<p>
+		danpowers610@gmail.com <br>
+		774-266-4207 <br><br>
+
+		<div class=BackToTop><a href="index.html#top">Back to Top</a></div>
+
+
+	</p> 
+
+	</div>
+
+</body>
+
+
